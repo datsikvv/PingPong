@@ -1,0 +1,28 @@
+body {
+   margin: 0px;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.container {
+    min-width: 506px;
+    min-height: 806px;
+    border: 3px solid black;
+    position: relative;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+}
+
+
+.racket {
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+    bottom: 0px;
+    position: absolute;
+}
